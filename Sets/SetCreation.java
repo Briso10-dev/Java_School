@@ -49,3 +49,6 @@ public class SetCreation {
 //3. A set in most cases contains one null element.
 //4. Set are in fact object collections..."Strings","Integer" and thus primitive data types are not used.
 //5. Set is in base an interface class...thus Other classes have to implement them like : HashSet(popular),LinkedHashSet,TreeSet.
+//6. LinkedHashSet : It's an order version of HashSet having a double linked List structure across all elements.
+//7. TreeSet : It's an implementation of the SortedSet interface which in turns extends from the Set interface where each elements are stored ina tree data structure.
+//Hence each element are stored in sorted,ascending order.
