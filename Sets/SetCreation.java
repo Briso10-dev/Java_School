@@ -1,5 +1,7 @@
-
-import java.util.*; //import Set collection from the java.util package
+// Importing utility classes
+import java.util.Set;
+import java.util.HashSet;
+import java.util.Iterator;
 
 public class SetCreation {
 	public static void main(String args[]) {
