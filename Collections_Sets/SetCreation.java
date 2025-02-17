@@ -1,6 +1,5 @@
 
-import java.util.HashSet; //import Set collection from the java.util package
-import java.util.Set;
+import java.util.*; //import Set collection from the java.util package
 
 public class SetCreation {
 	public static void main(String args[]) {
@@ -29,10 +28,15 @@ public class SetCreation {
 	    System.out.println("\nNow I am not poor..) : " + hash_set);
 
 		 //Iterating through a set
-		 for(String value : hash_set){
+		 for(String value : hash_set){  //Method1
 			System.out.println(value);
 		}
 
+        // Iterating through iterators    //Method2
+        Iterator<String> i = hash_set.iterator();
+        // It holds true till there is a single element remaining in the object
+        while (i.hasNext())
+			System.out.println(i.next());
 	}
 }
       
